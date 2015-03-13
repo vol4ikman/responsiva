@@ -1,5 +1,13 @@
+/*
+*
+*	Responsivo [Responsive CSS Framework]
+*	Created by Alexander Volkov
+*	Github URL: https://github.com/vol4ikman/responsivo
+*
+*/
+
 /********************
-Reset CSS
+		Reset CSS
 ***********************/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +29,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -45,9 +52,8 @@ table {
 	border-spacing: 0;
 }
 
-
 /***********************
-Grid System
+		Grid System
 ***************************/		
 .row:before, 
 .row:after {
@@ -91,7 +97,7 @@ Grid System
 
 
 /********************
-Helper classes
+		Helper classes
 **************************/
 .error {color: #FF0000;}		
 .warning {color: #DBDB4D;}
