@@ -103,3 +103,10 @@ table {
 .warning {color: #DBDB4D;}
 .success {color: #009933;}
 .bold {font-weight: bold;}
+
+.h1 {font-weight: bold;font-size: 36px;}
+.h2 {font-weight: bold;font-size: 32px;}
+.h3 {font-weight: bold;font-size: 28px;}
+.h4 {font-weight: bold;font-size: 24px;}
+.h5 {font-weight: bold;font-size: 20px;}
+.h6 {font-weight: bold;font-size: 16px;}
