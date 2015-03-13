@@ -8,5 +8,5 @@ Simple and lightweight responsive CSS framework with built-in RTL support
 ####Usage
 
 - add responsivo.css to your HTML / Template: 
-- <code><link rel="stylesheet" type="text/css" href="responsivo.css"></code>
+- [code]<link rel="stylesheet" type="text/css" href="responsivo.css">[/code]
 
