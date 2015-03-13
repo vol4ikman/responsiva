@@ -13,16 +13,17 @@ Simple and lightweight responsive CSS framework with built-in RTL support
 ```
 - build your grid system (for example):
 ``` html
-  	<div class="container">
-			
-			<div class="row">		
-				<div class="col-12"><div class="example">col-12</div></div>
-			</div>
-			
-			<div class="row">		
-				<div class="col-6"><div class="example">col-6</div></div>
-				<div class="col-6"><div class="example">col-6</div></div>
-			</div>				
-			
-		</div>
+<div class="container">
+	<div class="row">		
+		<div class="col-12"><div class="example">col-12</div></div>
+	</div>
+	<div class="row">		
+		<div class="col-6"><div class="example">col-6</div></div>
+		<div class="col-6"><div class="example">col-6</div></div>
+	</div>
+	<div class="row">		
+		<div class="col-5"><div class="example">col-5</div></div>
+		<div class="col-7"><div class="example">col-7</div></div>
+	</div>				
+</div>
 ```
