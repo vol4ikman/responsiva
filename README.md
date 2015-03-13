@@ -2,7 +2,7 @@
 ###Open Source Responsive CSS Framework
 
 - Simple and lightweight responsive CSS framework
-- Built-in RTL support
+- Built-in RTL support (under development [responsivo.rtl.css])
 - Reset.css included
 
 [Created by developer for users and developers =)]
@@ -15,7 +15,7 @@
 ```
 - build your grid system (for example):
 ``` html
-<div class="container">
+<div class="main_container">
 	<div class="row">		
 		<div class="col-12"><div class="example">col-12</div></div>
 	</div>
@@ -36,3 +36,18 @@
 ```html
 <div class="row end"></div>
 ```
+- error
+- warning
+- success
+- bold
+- italic
+- underline
+- align-center
+- align-left
+- align-right
+- h1
+- h2
+- h3
+- h4
+- h5
+- h6
