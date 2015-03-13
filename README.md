@@ -1,4 +1,4 @@
-# responsivo
+# Responsivo
 ###Open Source Responsive CSS Framework
 
 - Simple and lightweight responsive CSS framework
