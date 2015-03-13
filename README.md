@@ -1,7 +1,9 @@
 # responsivo
 ###Open Source Responsive CSS Framework
 
-Simple and lightweight responsive CSS framework with built-in RTL support
+- Simple and lightweight responsive CSS framework
+- Built-in RTL support
+- Reset.css included
 
 [Created by developer for users and developers =)]
 
