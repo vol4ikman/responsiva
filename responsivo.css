@@ -54,7 +54,9 @@ table {
 
 /*************************
 		Grid System
-*************************/		
+*************************/	
+.main_container {max-width: 1000px; margin:0 auto;}
+
 .row:before, 
 .row:after {
     content:"";
@@ -111,7 +113,7 @@ table {
 }
 
 @media only screen and (max-width: 480px) {
-	.row {padding: 0 2%;}
+	.main_container {padding: 0 2%;}
 }
 
 @media only screen and (max-width: 320px) {
