@@ -1,5 +1,5 @@
 /********************
-		Reset CSS
+Reset CSS
 ***********************/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,7 +47,7 @@ table {
 
 
 /***********************
-		Grid System
+Grid System
 ***************************/		
 .row:before, 
 .row:after {
@@ -76,46 +76,22 @@ table {
     margin-right: 0 !important;
 }
 
-.col-1{
-    width: 7.416666667%;     
-}
-.col-2{
-    width: 15.833333333%; 
-}
-.col-3{
-    width: 24.25%; 
-}
-.col-4{
-    width: 32.666666667%;
-}
-.col-5{
-    width: 41.083333334%;
-}
-.col-6{
-    width: 49.5%;
-}
-.col-7{
-    width: 57.916666666%; 
-}
-.col-8{
-    width: 66.333333333%; 
-}
-.col-9{
-    width: 74.75%; 
-}
-.col-10{
-    width: 83.16666667%;
-}
-.col-11{
-    width: 91.583333333%;
-}
-.col-12{
-    width: 100%;
-}
+.col-1{width: 7.416666667%;}
+.col-2{width: 15.833333333%;}
+.col-3{width: 24.25%;}
+.col-4{width: 32.666666667%;}
+.col-5{width: 41.083333334%;}
+.col-6{width: 49.5%;}
+.col-7{width: 57.916666666%;}
+.col-8{width: 66.333333333%;}
+.col-9{width: 74.75%;}
+.col-10{width: 83.16666667%;}
+.col-11{width: 91.583333333%;}
+.col-12{width: 100%;}
 
 
 /********************
-		Helper classes
+Helper classes
 **************************/
 .error {color: #FF0000;}		
 .warning {color: #DBDB4D;}
