@@ -27,3 +27,10 @@ Simple and lightweight responsive CSS framework with built-in RTL support
 	</div>				
 </div>
 ```
+
+####Extra helper classes
+
+- class "end": removes "margin-bottom" after row, code example:
+```html
+<div class="row end"></div>
+```
