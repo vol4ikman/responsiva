@@ -326,6 +326,11 @@ footer a:hover {
   color: #444;
 }
 
+#main_content ul {
+margin:0 0 0 20px;
+list-style-type:disc;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
