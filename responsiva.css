@@ -99,6 +99,12 @@ table {
 .col-11{width: 91.583333333%;}
 .col-12{width: 100%;}
 
+.one_fifth {width:19.2%;}
+.one_fifth:last-child {margin-right:0;}
+
+.one-half {width: 49.5%;}
+.one-half:last-child {margin-right:0;}
+
 .stuck .col-1{width: 8.333333333%;}
 .stuck .col-2{width: 16.666666667%;}
 .stuck .col-3{width: 25%;}
