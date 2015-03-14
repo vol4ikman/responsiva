@@ -9,7 +9,7 @@
 
 ###Examples:
 
-#####[Simple grid System Demo]:http://vol4ikman.github.io/responsiva/responsiva-simple
+#####[Simple grid System Demo]: <a href="http://vol4ikman.github.io/responsiva/responsiva-simple" target="_blank">DEMO</a>
 
 ####Usage
 
