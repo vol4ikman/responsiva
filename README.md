@@ -36,6 +36,13 @@
 ```html
 <div class="row end"></div>
 ```
+- class "stuck": removes columns margin (gutter), code example:
+```html
+<div class="row stuck">
+  <div class="col-5">col-5</div>
+  <div class="col-7">col-7</div>
+</div>
+```
 - error
 - warning
 - success
