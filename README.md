@@ -17,15 +17,15 @@
 ``` html
 <div class="main_container">
 	<div class="row">		
-		<div class="col-12"><div class="example">col-12</div></div>
+		<div class="col-12">col-12</div>
 	</div>
 	<div class="row">		
-		<div class="col-6"><div class="example">col-6</div></div>
-		<div class="col-6"><div class="example">col-6</div></div>
+		<div class="col-6">col-6</div>
+		<div class="col-6">col-6</div>
 	</div>
 	<div class="row">		
-		<div class="col-5"><div class="example">col-5</div></div>
-		<div class="col-7"><div class="example">col-7</div></div>
+		<div class="col-5">col-5</div>
+		<div class="col-7">col-7</div>
 	</div>				
 </div>
 ```
