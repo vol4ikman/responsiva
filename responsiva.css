@@ -74,15 +74,15 @@ table {
 	margin-bottom: 0;
 }
 
-[class*='col-'] {
+[class*='col-'], [class*='one_'] {
     float: left;
     min-height: 1px; 
     margin-right: 1%;
 }
-.stuck [class*='col-'] {
+.stuck [class*='col-'], .stuck [class*='one_'] {
     margin-right: 0%;
 }
-[class*='col-']:last-child {   
+[class*='col-']:last-child, [class*='one_']:last-child {   
     margin-right: 0 !important;
 }
 
@@ -100,10 +100,7 @@ table {
 .col-12{width: 100%;}
 
 .one_fifth {width:19.2%;}
-.one_fifth:last-child {margin-right:0;}
-
 .one_half {width: 49.5%;}
-.one_half:last-child {margin-right:0;}
 
 .stuck .col-1{width: 8.333333333%;}
 .stuck .col-2{width: 16.666666667%;}
