@@ -2,12 +2,23 @@
 
 <html>
 	<head>
-		<title>Responsiva CSS Framework - Simple Grid</title>
-		<meta charset="utf-8" >
-		<link rel="stylesheet" type="text/css" href="responsiva.css">
-		<style type="text/css">
-		.example {background: silver; padding: 10px;text-align: center;}
-		</style>
+	<title>Responsiva CSS Framework - Simple Grid</title>
+	<meta charset="utf-8" >
+	<link rel="stylesheet" type="text/css" href="responsiva.css">
+	<style type="text/css">
+	.example {
+	background: silver; padding: 10px;text-align: center;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+	}
+	.example:hover {
+	background:#000;
+	color:#FFF;
+	}
+	</style>
 	</head>
 	<body>
 
