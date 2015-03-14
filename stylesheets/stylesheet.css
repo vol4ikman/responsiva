@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -58,6 +59,7 @@ body {
 
 a {
   color: #d5000d;
+  font-family: 'Open Sans', sans-serif;
 }
 a:hover {
   color: #c5000c;
@@ -69,8 +71,8 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px; font-weight: 600;
   line-height: 1.2;
   color: #303030;
   letter-spacing: -1px;
