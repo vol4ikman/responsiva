@@ -7,6 +7,10 @@
 
 [Created by developer for users and developers =)]
 
+###Examples:
+
+#####[Simple grid System Demo]:http://vol4ikman.github.io/responsiva/responsiva-simple
+
 ####Usage
 
 - add responsivo.css to your HTML / Template: 
