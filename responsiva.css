@@ -79,10 +79,21 @@ table {
     min-height: 1px; 
     margin-right: 1%;
 }
+[class*='one_'] {
+    float: left;
+    min-height: 1px; 
+    margin-right: 1%;	
+}
 .stuck [class*='col-'] {
     margin-right: 0%;
 }
+.stuck [class*='one_'] {
+    margin-right: 0%;
+}
 [class*='col-']:last-child {   
+    margin-right: 0 !important;
+}
+[class*='one_']:last-child {
     margin-right: 0 !important;
 }
 
@@ -98,6 +109,9 @@ table {
 .col-10{width: 83.16666667%;}
 .col-11{width: 91.583333333%;}
 .col-12{width: 100%;}
+
+.one_fifth {width:19.2%;}
+.one_half {width: 49.5%;}
 
 .stuck .col-1{width: 8.333333333%;}
 .stuck .col-2{width: 16.666666667%;}
