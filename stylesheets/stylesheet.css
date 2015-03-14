@@ -346,6 +346,8 @@ list-style-type:disc;
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+.lora {font-family: 'Lora', serif;font-weight:700;font-style:italic; }
+
 /* #Media Queries
 ================================================== */
 
