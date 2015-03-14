@@ -48,11 +48,11 @@
 </div>
 ```
 - for the convenience of users added "user friendly" names of (extra) columns sizes
- ```html
+```html
  <div class="col-6"></div> = <div class="one_half"></div>
  <div class="col-4"></div> = <div class="one_third"></div>
  <div class="one_fifth"></div> 
- ```
+```
 - error
 - warning
 - success
