@@ -127,23 +127,25 @@ table {
 .stuck .col-11{width: 91.666666632%;}
 .stuck .col-12{width: 100%;}
 
+.stuck .one_fifth {width:20%;}
+.stuck .one_half {width: 50%;}
+.stuck .one_third {width: 33.333333333%;}
+
 @media only screen and (max-width: 767px) {
-
-	[class*='col-'] {
-	    float: none;
-	    min-height: 1px; 
-	    margin-right: 0% !important;
-	    margin-bottom: 10px;
-	    width: 100%;
-	}
-	[class*='col-']:last-child {
-		margin-bottom: 0;
-	}
-
+[class*='col-'], [class*='one_'] {
+    float: none;
+    min-height: 1px; 
+    margin-right: 0% !important;
+    margin-bottom: 10px;
+    width: 100%;
+}
+[class*='col-']:last-child, [class*='one_']:last-child {
+	margin-bottom: 0;
+}
 }
 
 @media only screen and (max-width: 480px) {
-	.main_container {padding: 0 2%;}
+.main_container {padding: 0 2%;}
 }
 
 @media only screen and (max-width: 320px) {
