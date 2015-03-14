@@ -9,7 +9,7 @@
 
 ###Examples:
 
-#####[Simple grid System Demo]: <a href="http://vol4ikman.github.io/responsiva/responsiva-simple" target="_blank">DEMO</a>
+#####[Simple grid System]: <a href="http://vol4ikman.github.io/responsiva/responsiva-simple" target="_blank">DEMO Link</a>
 
 ####Usage
 
@@ -47,6 +47,12 @@
   <div class="col-7">col-7</div>
 </div>
 ```
+- for the convenience of users added "user friendly" names of (extra) columns sizes
+ ```
+ <div class="col-6"></div> = <div class="one_half"></div>
+ <div class="col-4"></div> = <div class="one_third"></div>
+ <div class="one_fifth"></div> 
+ ```
 - error
 - warning
 - success
