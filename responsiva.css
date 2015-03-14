@@ -102,8 +102,8 @@ table {
 .one_fifth {width:19.2%;}
 .one_fifth:last-child {margin-right:0;}
 
-.one-half {width: 49.5%;}
-.one-half:last-child {margin-right:0;}
+.one_half {width: 49.5%;}
+.one_half:last-child {margin-right:0;}
 
 .stuck .col-1{width: 8.333333333%;}
 .stuck .col-2{width: 16.666666667%;}
