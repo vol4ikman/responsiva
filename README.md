@@ -10,7 +10,7 @@
 ###Examples:
 
 #####[Simple grid System]: <a href="http://vol4ikman.github.io/responsiva/responsiva-simple" target="_blank">DEMO Link</a>
-####[Stuck grid system]: <a href="http://vol4ikman.github.io/responsiva/responsiva-stuck-grid" target="_blank">DEMO Link</a>
+#####[Stuck grid system]: <a href="http://vol4ikman.github.io/responsiva/responsiva-stuck-grid" target="_blank">DEMO Link</a>
 
 ####Usage
 
