@@ -146,6 +146,8 @@ table {
 
 @media only screen and (max-width: 480px) {
 .main_container {padding: 0 2%;}
+.desktop_only {display:none;}
+.mobile_only {display:block;}
 }
 
 @media only screen and (max-width: 320px) {
@@ -173,3 +175,6 @@ table {
 .h4 {font-weight: bold;font-size: 24px;}
 .h5 {font-weight: bold;font-size: 20px;}
 .h6 {font-weight: bold;font-size: 16px;}
+
+.desktop_only {display:block;}
+.mobile_only {display:none;}
