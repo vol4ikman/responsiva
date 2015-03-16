@@ -54,6 +54,14 @@
  <div class="col-4"></div> = <div class="one_third"></div>
  <div class="one_fifth"></div> 
 ```
+- display element on desktop only
+```html
+<div class="desktop_only"></div>
+```
+- display element on mobile only & hide on desktop
+```html
+<div class="mobile_only"></div>
+```
 - error
 - warning
 - success
