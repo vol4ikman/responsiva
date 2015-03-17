@@ -18,9 +18,13 @@
 
 ####Usage
 
-- add responsivo.css to your HTML / Template: 
+- add responsiva.css to your HTML/Theme: 
 ```html
 <link rel="stylesheet" type="text/css" href="responsiva.css">
+```
+- to add RTL support to your HTML/Theme (after the main responsiva.css file): 
+```html
+<link rel="stylesheet" type="text/css" href="responsiva.rtl.css">
 ```
 - build your grid system (for example):
 ``` html
