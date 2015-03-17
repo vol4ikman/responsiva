@@ -1,8 +1,8 @@
-# responsivo
+# Responsiva
 ###Open Source Responsive CSS Framework
 
 - Simple and lightweight responsive CSS framework
-- Built-in RTL support (under development [responsivo.rtl.css])
+- Built-in RTL support (under development [responsiva.rtl.css])
 - Reset.css included
 
 [Created by developer for users and developers =)]
@@ -11,7 +11,7 @@
 
 - add responsivo.css to your HTML / Template: 
 ```html
-<link rel="stylesheet" type="text/css" href="responsivo.css">
+<link rel="stylesheet" type="text/css" href="responsiva.css">
 ```
 - build your grid system (for example):
 ``` html
