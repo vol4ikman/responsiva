@@ -59,6 +59,8 @@ Simple. Lightweight. Beautiful
   </a>
 </li>
 </ul>
+
+
 <br><br>
 <h3 class="lora">
 <a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h3>
@@ -71,13 +73,17 @@ Simple. Lightweight. Beautiful
 <li>helper classes</li>
 <li>rtl support (responsiva.rtl.css [under development])</li>
 </ul>
+
 <br><br>
 <h3 class="lora">
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
 
 <p>1) include Responsiva in your HTML template file</p>
 
-<p>2) Basic layout example:</p>
+<p>2) to add RTL support to your HTML/Theme (after the main responsiva.css file):</p>
+<pre>&lt;link rel="stylesheet" type="text/css" href="responsiva.rtl.css"&gt;</pre>
+
+<p>3) Basic layout example:</p>
 
 <div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s1"><span class="pl-pds">"</span>main_container<span class="pl-pds">"</span></span>&gt;
 &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s1"><span class="pl-pds">"</span>row<span class="pl-pds">"</span></span>&gt;
@@ -90,13 +96,13 @@ Simple. Lightweight. Beautiful
 &lt;/<span class="pl-ent">div</span>&gt;
 &lt;/<span class="pl-ent">div</span>&gt;</pre></div>
 
-<p>3) Grid row without 'margin-bottom'</p>
+<p>4) Grid row without 'margin-bottom'</p>
 <pre>&lt;div class="row end"&gt;</pre>
 
-<p>4) Display elements on desktop only</p>
+<p>5) Display elements on desktop only</p>
 <pre>&lt;div class="desktop_only"&gt;</pre>
 
-<p>5) Display elements on mobile devices only</p>
+<p>6) Display elements on mobile devices only</p>
 <pre>&lt;div class="mobile_only"&gt;</pre>
 
 <br><br>
