@@ -1,6 +1,6 @@
 # Responsiva [beta]
 
-##Responsiva Project documentation & updated examples <a href="http://vol4ikman.github.io/responsiva/" target="_blank"><strong>HERE</strong></a>
+##Responsiva's updated docs & examples <a href="http://vol4ikman.github.io/responsiva/" target="_blank"><strong>HERE</strong></a>
 
 ###Open Source Responsive CSS Framework
 
