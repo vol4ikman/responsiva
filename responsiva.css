@@ -161,14 +161,16 @@ table {
 **********************************/
 
 @media only screen and (max-width: 767px) {
-[class*='col-'], [class*='one_'] {
+[class*='col-'], [class*='one_'],
+.stuck [class*='col-'],.stuck [class*='one_'] {
     float: none;
     min-height: 1px; 
     margin-right: 0% !important;
     margin-bottom: 10px;
     width: 100%;
 }
-[class*='col-']:last-child, [class*='one_']:last-child {
+[class*='col-']:last-child, [class*='one_']:last-child,
+.stuck [class*='col-']:last-child, .stuck [class*='one_']:last-child {
 	margin-bottom: 0;
 }
 }
