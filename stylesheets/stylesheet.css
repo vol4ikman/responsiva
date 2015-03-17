@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Code Pro';
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +49,7 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro';
   font-size: 1em;
   line-height: 1.5;
   color: #252525;
@@ -59,7 +59,7 @@ body {
 
 a {
   color: #d5000d;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro';
 }
 a:hover {
   color: #c5000c;
