@@ -310,10 +310,8 @@ ol li {
   list-style: decimal;
   padding-left: 3px;
 }
-
-dl dt {
-  color: #303030;
-}
+.class_result {margin-bottom: 15px;}
+dl dt {color: #303030;}
 
 footer {
   padding-top: 20px;
