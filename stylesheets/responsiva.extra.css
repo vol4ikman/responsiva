@@ -1,0 +1,8 @@
+.raccardion_title {
+	cursor: pointer;	
+	font-weight: bold;
+	padding: 5px 0;
+}
+.raccardion_content {
+	display: none;	
+}
