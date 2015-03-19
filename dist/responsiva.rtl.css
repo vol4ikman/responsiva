@@ -2,8 +2,10 @@
     float: right;
     min-height: 1px; 
     margin-left: 1%;
+    margin-right: 0;
 }
 
 [class*='col-']:last-child {   
     margin-left: 0 !important;
+    margin-right: 0 !important;
 }
