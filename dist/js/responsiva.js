@@ -7,10 +7,8 @@ jQuery(document).ready(function(){
 		var content = title.next(".raccardion_content");
 		title.toggleClass("active");
 		if(title.is(".active")) {
-			console.log("i am active");
 			jQuery(".raccardion_content").slideUp(250);
 		} else {
-			var content = title.next(".raccardion_content");
 			content.slideDown(250);	
 		}
 		content.slideToggle(300);
