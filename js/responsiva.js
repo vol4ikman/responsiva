@@ -6,11 +6,6 @@ jQuery(document).ready(function(){
 		var title = jQuery(this);
 		var content = title.next(".raccardion_content");
 		title.toggleClass("active");
-		if(title.is(".active")) {
-			jQuery(".raccardion_content").slideUp(250);
-		} else {
-			content.slideDown(250);	
-		}
 		content.slideToggle(300);
 	});
 
