@@ -42,7 +42,3 @@
 	</div>				
 </div>
 ```
-
-#####Notice
-
-this version under development
