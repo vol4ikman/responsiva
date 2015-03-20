@@ -347,7 +347,7 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
-.lora {font-family: 'Lora', serif;font-weight:700;font-style:italic; }
+.lora {font-family: 'Oswald', sans-serif;}
 
 .class_explanation pre {
 	margin-bottom:0;
