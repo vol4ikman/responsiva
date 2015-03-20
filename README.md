@@ -43,50 +43,6 @@
 </div>
 ```
 
-####Extra helper classes
-
-- class "end": removes "margin-bottom" after row, code example:
-```html
-<div class="row end"></div>
-```
-- class "stuck": removes columns margin (gutter), code example:
-```html
-<div class="row stuck">
-  <div class="col-5">col-5</div>
-  <div class="col-7">col-7</div>
-</div>
-```
-- for the convenience of users added "user friendly" names of (extra) columns sizes
-```html
- <div class="col-6"></div> = <div class="one_half"></div>
- <div class="col-4"></div> = <div class="one_third"></div>
- <div class="one_fifth"></div> 
-```
-- display element on desktop only
-```html
-<div class="desktop_only"></div>
-```
-- display element on mobile only & hide on desktop
-```html
-<div class="mobile_only"></div>
-```
-- error
-- warning
-- success
-- bold
-- italic
-- underline
-- align-center
-- align-left
-- align-right
-- h1
-- h2
-- h3
-- h4
-- h5
-- h6
-
-
 #####Notice
 
 this version under development
