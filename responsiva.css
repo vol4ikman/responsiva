@@ -138,6 +138,9 @@ table {
 .desktop_only {display:block;}
 .mobile_only {display:none;}
 
+.hide {display:none;}
+.show {display:block;}
+
 /***************************
 	CSS Media Queries
 **********************************/
