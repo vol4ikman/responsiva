@@ -22,7 +22,7 @@
 ```html
 <link rel="stylesheet" type="text/css" href="responsiva.css">
 ```
-- to add RTL support to your HTML/Theme add respondiva.rtl.css after the main responsiva.css file: 
+- to add RTL support to your HTML/Theme (after the main responsiva.css file): 
 ```html
 <link rel="stylesheet" type="text/css" href="responsiva.rtl.css">
 ```
