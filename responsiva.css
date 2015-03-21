@@ -73,11 +73,12 @@ table {
 }
 .stuck [class*='col-'] {margin-right: 0%;}
 .stuck [class*='one_'] {margin-right: 0%;}
-[class*='col-']:last-child {   margin-right: 0 !important;}
+[class*='col-']:last-child {margin-right: 0 !important;}
 [class*='one_']:last-child {margin-right: 0 !important;}
 
 .col-1{width: 7.416666667%;}
 .col-2{width: 15.833333333%;}
+.col-1-5{width:19.2%;}
 .col-3{width: 24.25%;}
 .col-4{width: 32.666666667%;}
 .col-5{width: 41.083333334%;}
@@ -88,13 +89,13 @@ table {
 .col-10{width: 83.16666667%;}
 .col-11{width: 91.583333333%;}
 .col-12{width: 100%;}
-
 .one_fifth {width:19.2%;}
 .one_half {width: 49.5%;}
 .one_third {width: 32.666666667%;}
 
 .stuck .col-1{width: 8.333333333%;}
 .stuck .col-2{width: 16.666666667%;}
+.stuck .col-1-5{width:20%;}
 .stuck .col-3{width: 25%;}
 .stuck .col-4{width: 33.333333333%;}
 .stuck .col-5{width: 41.6666663%;}
@@ -105,7 +106,6 @@ table {
 .stuck .col-10{width: 83.333333299%;}
 .stuck .col-11{width: 91.666666632%;}
 .stuck .col-12{width: 100%;}
-
 .stuck .one_fifth {width:20%;}
 .stuck .one_half {width: 50%;}
 .stuck .one_third {width: 33.333333333%;}
@@ -139,7 +139,7 @@ table {
 .mobile_only {display:none;}
 
 /***************************
-	Media Queries
+	CSS Media Queries
 **********************************/
 
 @media only screen and (max-width: 767px) {
