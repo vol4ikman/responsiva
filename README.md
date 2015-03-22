@@ -18,6 +18,11 @@
 
 ####Usage
 
+- install with bower:
+```html
+	bower install responsiva
+```
+
 - add responsiva.css to your HTML/Theme: 
 ```html
 <link rel="stylesheet" type="text/css" href="responsiva.css">
