@@ -1,7 +1,7 @@
 [class*='col-'] {
     float: right;
     min-height: 1px; 
-    margin-left: 0;
+    margin-left: 1%;
     margin-right: 0;
 }
 
@@ -9,3 +9,5 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+
+.stuck [class*='col-'] {margin:0; }
