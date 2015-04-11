@@ -1,4 +1,4 @@
-# Responsiva [beta]
+# Responsiva [beta 2]
 
 ##Responsiva's updated docs & examples <a href="http://vol4ikman.github.io/responsiva/" target="_blank"><strong>HERE</strong></a>
 
