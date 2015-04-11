@@ -66,15 +66,8 @@ table {
     min-height: 1px; 
     margin-right: 1%;
 }
-[class*='one_'] {
-    float: left;
-    min-height: 1px; 
-    margin-right: 1%;	
-}
 .stuck [class*='col-'] {margin-right: 0%;}
-.stuck [class*='one_'] {margin-right: 0%;}
 [class*='col-']:last-child {margin-right: 0 !important;}
-[class*='one_']:last-child {margin-right: 0 !important;}
 
 .col-1{width: 7.416666667%;}
 .col-2{width: 15.833333333%;}
