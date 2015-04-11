@@ -89,9 +89,6 @@ table {
 .col-10{width: 83.16666667%;}
 .col-11{width: 91.583333333%;}
 .col-12{width: 100%;}
-.one_fifth {width:19.2%;}
-.one_half {width: 49.5%;}
-.one_third {width: 32.666666667%;}
 
 .stuck .col-1{width: 8.333333333%;}
 .stuck .col-2{width: 16.666666667%;}
@@ -106,9 +103,6 @@ table {
 .stuck .col-10{width: 83.333333299%;}
 .stuck .col-11{width: 91.666666632%;}
 .stuck .col-12{width: 100%;}
-.stuck .one_fifth {width:20%;}
-.stuck .one_half {width: 50%;}
-.stuck .one_third {width: 33.333333333%;}
 
 /*************************
 	Helper classes
@@ -146,18 +140,50 @@ table {
 **********************************/
 
 @media only screen and (max-width: 767px) {
-	[class*='col-'], [class*='one_'],
-	.stuck [class*='col-'],.stuck [class*='one_'] {
+
+	/*** DESKTOP GRID ****/
+	[class*='col-'], .stuck [class*='col-'] {
 	    float: none;
 	    min-height: 1px; 
-	    margin-right: 0% !important;
+	    margin-right: 0;
 	    margin-bottom: 10px;
 	    width: 100%;
 	}
-	[class*='col-']:last-child, [class*='one_']:last-child,
-	.stuck [class*='col-']:last-child, .stuck [class*='one_']:last-child {
+	[class*='col-']:last-child, .stuck [class*='col-']:last-child{
 		margin-bottom: 0;
 	}
+
+	/***** MOBILE GRID ****/
+	[class*="mob-"] { float: left; min-height: 1px; margin-right: 1%; }
+	[class*='mob-']:last-child {margin-right: 0 !important;}
+	.mob-1{width: 7.416666667%;}
+	.mob-2{width: 15.833333333%;}
+	.mob-1-5{width:19.2%;}
+	.mob-3{width: 24.25%;}
+	.mob-4{width: 32.666666667%;}
+	.mob-5{width: 41.083333334%;}
+	.mob-6{width: 49.5%;}
+	.mob-7{width: 57.916666666%;}
+	.mob-8{width: 66.333333333%;}
+	.mob-9{width: 74.75%;}
+	.mob-10{width: 83.16666667%;}
+	.mob-11{width: 91.583333333%;}
+	.mob-12{width: 100%;}
+
+	.stuck .mob-1{width: 8.333333333%;}
+	.stuck .mob-2{width: 16.666666667%;}
+	.stuck .mob-1-5{width:20%;}
+	.stuck .mob-3{width: 25%;}
+	.stuck .mob-4{width: 33.333333333%;}
+	.stuck .mob-5{width: 41.6666663%;}
+	.stuck .mob-6{width: 50%;}
+	.stuck .mob-7{width: 58.333333333%;}
+	.stuck .mob-8{width: 66.666666633%;}
+	.stuck .mob-9{width: 74.999999966%;}
+	.stuck .mob-10{width: 83.333333299%;}
+	.stuck .mob-11{width: 91.666666632%;}
+	.stuck .mob-12{width: 100%;}	
+	
 }
 
 @media only screen and (max-width: 480px) {
