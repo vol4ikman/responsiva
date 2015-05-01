@@ -47,3 +47,12 @@
 	</div>				
 </div>
 ```
+- example with specific mobile grid system:
+```html
+<div class="main_container">
+	<div class="row">
+		<div class="col-8 mob-6">desktop-8 mobile-6</div>
+		<div class="col-4 mob-6">desktop-4 mobile-8</div>
+	</div>
+</div>
+```
