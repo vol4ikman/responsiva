@@ -13,3 +13,10 @@
   margin-left: 0%;
   margin-right: 0%;
 }
+
+
+@media only screen and (max-width: 767px) {
+	/***** MOBILE GRID ****/
+	[class*="mob-"] { float: right; min-height: 1px; margin-right: 0; margin-left:1%; }
+	[class*='mob-']:last-child {margin-left: 0 !important;}
+}
