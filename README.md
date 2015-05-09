@@ -6,7 +6,6 @@
 
 - Simple and lightweight responsive CSS framework
 - Built-in RTL support (under development [responsiva.rtl.css])
-- Reset.css included
 
 [Created by developer for users and developers =)]
 
