@@ -1,15 +1,10 @@
 /*********************************************************
-*
 *	Responsiva [Responsive CSS Framework]
 *	Created by Alexander Volkov
 *	Github URL: https://github.com/vol4ikman/responsiva
-*
 **********************************************************/
 
-/*************************
-	Grid System
-*************************/	
-.main_container {max-width: 1000px; margin:0 auto;}
+/******** Grid System *******/	
 .row:before, 
 .row:after {
     content:"";
@@ -58,9 +53,7 @@
 .stuck .col-11{width: 91.666666632%;}
 .stuck .col-12{width: 100%;}
 
-/*************************
-	Helper classes
-**************************/
+/********* Helper classes ***********/
 .error {color: #FF0000;}
 .error-border {border: 1px solid #FF0000;}
 .warning {color: #DBDB4D;}
@@ -89,9 +82,7 @@
 .hide {display:none;}
 .show {display:block;}
 
-/***************************
-	CSS Media Queries
-**********************************/
+/******* CSS Media Queries *****/
 
 @media only screen and (max-width: 767px) {
 
