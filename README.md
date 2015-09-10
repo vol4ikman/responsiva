@@ -5,7 +5,9 @@
 ###Open Source Responsive CSS Framework
 
 - Simple and lightweight responsive CSS framework
-- Built-in RTL support (under development [responsiva.rtl.css])
+- Built-in RTL support ([responsiva.rtl.css])
+- Created by developers for developers
+- Very clean grid system
 
 [Created by developer for users and developers =)]
 
