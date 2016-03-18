@@ -20,9 +20,9 @@
 ####Usage
 
 - install with bower:
-```html
-	bower install responsiva
-```
+<pre>bower install responsiva</pre>
+- install with npm:
+<pre>npm install responsiva</pre>
 
 - add responsiva.css to your HTML/Theme: 
 ```html
